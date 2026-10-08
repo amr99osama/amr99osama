@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Amr Osama, Senior Web Developer</title>
+  <desc id="d">Fix, speed up and modernize the website your business depends on. WordPress, WooCommerce, Next.js and performance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#131a36"/></linearGradient>
+    <linearGradient id="nm" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <radialGradient id="ga"><stop offset="0" stop-color="#6366f1" stop-opacity=".55"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gb"><stop offset="0" stop-color="#22d3ee" stop-opacity=".4"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+    <clipPath id="clip"><rect width="600" height="440" rx="22"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .orb1 { animation: drift1 16s ease-in-out infinite alternate; }
+    .orb2 { animation: drift2 19s ease-in-out infinite alternate; }
+    .bar  { transform-box: fill-box; transform-origin: left center; animation: load 3.6s cubic-bezier(.22,.8,.24,1) infinite; }
+    @keyframes drift1 { from { transform: translate(0,0); } to { transform: translate(40px,30px); } }
+    @keyframes drift2 { from { transform: translate(0,0); } to { transform: translate(-40px,-20px); } }
+    @keyframes load   { 0% { transform: scaleX(.06); } 62%,100% { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="600" height="440" fill="url(#bg)"/>
+    <rect width="600" height="440" fill="url(#grid)"/>
+    <g class="orb1"><circle cx="520" cy="40" r="220" fill="url(#ga)"/></g>
+    <g class="orb2"><circle cx="560" cy="420" r="200" fill="url(#gb)"/></g>
+  </g>
+  <text x="36" y="70" font-size="15" font-weight="700" letter-spacing="2" fill="#7dd3fc">SENIOR WEB DEVELOPER  ·  CAIRO, EGYPT</text>
+  <text x="34" y="144" font-size="68" font-weight="800" letter-spacing="-1.5" fill="url(#nm)">Amr Osama</text>
+  <text x="36" y="192" font-size="26" font-weight="500" fill="#c7d2fe">Fix, speed up and modernize</text>
+  <text x="36" y="226" font-size="26" font-weight="500" fill="#c7d2fe">the website your business depends on.</text>
+  <g transform="translate(36 262)"><rect width="138" height="42" rx="21" fill="#1b2550" stroke="#34408a"/><text x="69" y="27" text-anchor="middle" font-size="18" font-weight="600" fill="#dbe4ff">WordPress</text></g><g transform="translate(188 262)"><rect width="158" height="42" rx="21" fill="#1b2550" stroke="#34408a"/><text x="79" y="27" text-anchor="middle" font-size="18" font-weight="600" fill="#dbe4ff">WooCommerce</text></g><g transform="translate(36 316)"><rect width="117" height="42" rx="21" fill="#1b2550" stroke="#34408a"/><text x="58.5" y="27" text-anchor="middle" font-size="18" font-weight="600" fill="#dbe4ff">Next.js</text></g><g transform="translate(167 316)"><rect width="158" height="42" rx="21" fill="#1b2550" stroke="#34408a"/><text x="79" y="27" text-anchor="middle" font-size="18" font-weight="600" fill="#dbe4ff">Performance</text></g>
+  <rect x="36" y="388" width="528" height="8" rx="4" fill="#27316a"/>
+  <rect class="bar" x="36" y="388" width="528" height="8" rx="4" fill="url(#bar)"/>
+</svg>
