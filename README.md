@@ -11,7 +11,7 @@
 
 **I fix, speed up and modernize the websites businesses depend on.**
 
-For seven years I have built and fixed websites for global teams: three years at Unilever on campaign platforms and APIs across 15+ teams, a bilingual investor-relations site for a Saudi-listed company, and multilingual sites for other clients.
+Seven years of fixing slow sites and building ones that last. Three of them at Unilever, shipping campaign platforms and APIs for 15+ teams. The rest delivering bilingual and multilingual sites for clients worldwide.
 
 I work with marketing teams, growing businesses and agencies on sites that are slow, hard to edit or outgrowing WordPress, and I will tell you honestly when a rebuild is cheaper than a fix.
 
